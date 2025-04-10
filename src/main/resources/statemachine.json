@@ -1,0 +1,11 @@
+{
+  "states": [
+    { "id": "S1", "type": "INITIAL" },
+    { "id": "S2" },
+    { "id": "S3", "type": "END" }
+  ],
+  "transitions": [
+    { "source": "S1", "target": "S2", "event": "EVENT1" },
+    { "source": "S2", "target": "S3", "event": "EVENT2" }
+  ]
+}
